@@ -1,0 +1,259 @@
+    * {
+        margin: 0% 2%;
+        padding: 0;
+    }
+    /*navbar css */
+    
+    .navigbar {
+        margin: 2% 10%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: grey;
+        margin: 0%;
+        padding: 0 0.6em;
+    }
+    
+    .navbar {
+        padding: 0% 3.5%;
+    }
+    
+    .navbar a:hover {
+        color: #00b39b;
+    }
+    
+    .navbar .is-current {
+        color: #00b39b;
+    }
+    
+    .docplannerhead {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo-docplanner {
+        width: 268px;
+        height: 33px;
+        padding: 0 3.5%
+    }
+    /* introduction CSS */
+    
+    .inroduction {
+        margin: 2% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .inroduction div {
+        display: flex;
+    }
+    
+    .inroduction h1 {
+        margin: 5%;
+        color: #00b39b;
+        font-size: 2.125rem;
+    }
+    
+    .inroduction div p {
+        line-height: 1.5;
+        color: gray;
+        /* width: 41%; */
+        padding: 2%;
+    }
+    /* card section */
+    
+    .country-card {
+        display: flex;
+        margin: 2% 10%;
+        justify-content: space-between;
+        height: 400px;
+    }
+    
+    .for-patient div {
+        display: flex;
+    }
+    
+    .for-doctors div {
+        display: flex;
+    }
+    
+    .card-img img {
+        width: 400px;
+        height: 250px;
+        bottom: 40px;
+        right: 0;
+    }
+    
+    .for-patient-select {
+        display: flex;
+    }
+    
+    .for-patient-select select {
+        height: 40px;
+        align-self: center;
+    }
+    
+    .country-card .for-patient {
+        background-color: #00ccb1;
+        border-radius: 10px;
+        padding: 2em 2.5em 0;
+        overflow: hidden;
+    }
+    
+    .country-card .for-doctors {
+        background-color: #3d83df;
+        border-radius: 10px;
+        padding: 2em 2.5em 0;
+        overflow: hidden;
+    }
+    /* brands css part */
+    
+    .brands {
+        display: flex;
+    }
+    
+    .brands h1 {
+        margin: 2% 10%;
+        color: #00b39b;
+        font-size: 2.125rem;
+    }
+    
+    .brands_logo {
+        margin: 2% 10%;
+    }
+    
+    .brands_logo ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+    
+    .brands_logo li {
+        justify-content: center;
+    }
+    
+    .brands_logo li a {
+        text-decoration: none;
+    }
+    /* stats section */
+    
+    .stats {
+        background: #e5faf8;
+        margin: 0% -6.5%;
+        height: 500px;
+        display: flex;
+    }
+    
+    .second-section {
+        display: flex;
+    }
+    
+    .stat-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
+        height: 150px;
+        text-align: center;
+        padding: 15px;
+        font-size: .8125em;
+    }
+    
+    .stat-card h2 {
+        font-size: 1.8461538462em;
+        color: #00b39b;
+        margin: .5em 0;
+    }
+    
+    .second-section .stat-card {
+        background: white;
+        border-radius: 5px;
+    }
+    /* CSS contries part */
+    
+    .contries {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2% 10%;
+        justify-content: space-between;
+    }
+    
+    .contry {
+        margin-bottom: 2%;
+        border: gray 2px solid;
+        border-radius: 6px;
+    }
+    
+    .contry div {
+        display: flex;
+        justify-content: space-between;
+        padding: 6%;
+    }
+    
+    .contry:hover {
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+    
+    .country-card h1 {
+        font-size: 1.625em;
+        color: #fff;
+        margin-top: .3em;
+    }
+    
+    .country-card h6 {
+        font-size: .875em;
+        font-weight: 400;
+        margin: 0;
+        color: hsla(0, 0%, 100%, .7);
+    }
+    
+    .intocountry {
+        display: flex;
+        justify-content: center;
+        padding: 6%;
+        margin: 2% 10%;
+        flex-direction: column;
+    }
+    
+    .intocountry h2 {
+        margin: 5%;
+        color: #00b39b;
+        font-size: 2.125rem;
+        align-self: center;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: .3px;
+        padding: 0px 100px;
+    }
+    
+    .intocountry p {
+        line-height: 1.5;
+        color: gray;
+        padding: 2%;
+        align-self: center;
+        text-align: center;
+        padding: 0px 115px;
+        line-height: 1.7142857143;
+    }
+    /* footer section */
+    
+    .outer-footer {
+        border-top: 1px solid #eef2f2;
+        font-size: .75em;
+        color: #ababab;
+        text-align: center;
+        padding: 1em 0;
+    }
+    
+    .inner-footer p {
+        margin-bottom: 2%;
+    }
+    
+    .inner-footer p a {
+        margin: 0;
+    }
